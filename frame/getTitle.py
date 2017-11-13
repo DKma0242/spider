@@ -18,7 +18,7 @@ def getTitle(url):
 	return title
 
 if __name__ == '__main__':
-	title = getTitle("http://xinsheng.huawei.com/cn/index.php?app=forum&mod=Detail&act=index&id=3634961")
+	title = getTitle("http://xinsheng.huawei.com/cn/index.php?app=forum&mod=List&act=index&class=461")
 	if title == None:
 		print("Title could not be found")
 	else:
